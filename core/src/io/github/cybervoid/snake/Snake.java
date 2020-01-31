@@ -1,5 +1,6 @@
 package io.github.cybervoid.snake;
 
+import com.badlogic.gdx.ApplicationListener;
 import com.badlogic.gdx.Gdx;
 import com.badlogic.gdx.Input;
 import com.badlogic.gdx.graphics.Color;
@@ -7,7 +8,7 @@ import com.badlogic.gdx.graphics.glutils.ShapeRenderer;
 
 import java.util.ArrayList;
 
-class Snake {
+class Snake implements ApplicationListener {
     private static final Color color = new Color(1, 1, 1, 1);
 
     private ArrayList<int[]> pieces;
@@ -106,6 +107,35 @@ class Snake {
         }
     }
 
+    @Override
+    public void create() {
+
+    }
+
+    @Override
+    public void resize(int width, int height) {
+
+    }
+
+    @Override
+    public void render() {
+
+    }
+
+    @Override
+    public void pause() {
+
+    }
+
+    @Override
+    public void resume() {
+
+    }
+
+    @Override
+    public void dispose() {
+
+    }
 }
 
 enum Direction {
