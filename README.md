@@ -1,5 +1,5 @@
 # Snake App
-A snake clone that includes deadly obstacles. Never finished doing Android side of it, only works for desktop at the moment.
+A snake clone made using LibGDX that includes deadly obstacles.
 
 ## Gameplay
 ![Image of gameplay](screenshots/gameplay.png)
